@@ -17,6 +17,11 @@ app.get('/services', function(req, res){
 	console.log('Zażądano strony Services');
 });
 
+app.get('/info', function(req, res){
+	res.send('DevOps - strona info!');
+	console.log('Zażądano strony info');
+});
+
 app.listen(3001, function(){
 	console.log('Aplikacja OK');
 }); 
