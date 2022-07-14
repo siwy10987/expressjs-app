@@ -14,7 +14,7 @@ app.get('/users', function(req, res){
 
 app.get('/services', function(req, res){
 	res.send('DevOps - strona Services!');
-	console.log('Zażądano strony Users');
+	console.log('Zażądano strony Services');
 });
 
 app.listen(3001, function(){
